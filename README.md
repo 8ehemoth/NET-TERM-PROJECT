@@ -1,6 +1,6 @@
 # NET-TERM-PROJECT
 
-## 네트워크프로그래밍및실습 - 0508목
+## 0508목 수업정리
 
 main에 다 집어넣지 말고 함수로 정의해서 사용하기
 sscanf - string scanf
