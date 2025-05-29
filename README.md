@@ -232,4 +232,27 @@ personal list goup list
 확장하면 그룹별로 메세지 복원 기능 있어야 할듯(친구들 단톡방 너낌으로)
 
 
-2. 
+2. Data struct 만들고 A에서 해당하는 데이터를 서버로 보내야 등록이 가능
+03 enroll ID
+03이 가면 이제 뒤에 아이디가 따라온다. 
+등록이 되면 해당 데이터를 주고받을 준비가 된거임.
+
+enroll
+gpchat
+gchat
+
+이 데이터들은 명확하게 정의되어 있어야함 (#define enroll = 00 ?)
+이 정의에 따라서 뒤에 나오는 데이터의 포맷이 달라진다.
+
+ex)
+enroll 은 뒤에 ID 하나
+gchat 은 group send msg
+pchat 은 persnal send msg
+
+그냥 메세지 구조체는 서버와 클라이언트에 구현하고
+enroll 에 관한 구조체를 서버에서 구현해서 처리하게끔 
+
+
+카카오톡을 예로 들면 그룹 아이디가 있고 그 안에서도 개인 아이디가 존재함
+
+
