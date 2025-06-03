@@ -1,5 +1,17 @@
 # NET-TERM-PROJECT
 
+이 구조로 나눌 것 같음.
+/src
+├── Main.cpp              // WinMain()
+├── ChatServer.cpp        // 채팅 서버 쓰레드
+├── FileTransfer.cpp      // 파일 전송 기능
+├── RestoreChat.cpp       // 메시지 복원
+├── CalculatorServer.cpp  // 계산기 서버
+├── UDPChat.cpp           // UDP 1:1 채팅
+├── Common.h              // 공통 상수/구조체
+├── ChatMsg.h             // CHAT_MSG 구조체 및 관련 함수
+
+
 ## 0508목 수업정리
 
 main에 다 집어넣지 말고 함수로 정의해서 사용하기
