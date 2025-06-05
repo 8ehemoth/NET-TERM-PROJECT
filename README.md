@@ -51,6 +51,39 @@ case 00l
 parsing 프로토콜이 통신에서 가장 중요하다
 
 
+클라이언트 프로젝트
+•	ChatMSG.h / ChatMSG.cpp
+•	채팅 메시지 송수신
+•	사용자 ID 입력 및 관리
+•	FileTransfer.h / FileTransfer.cpp
+•	파일 전송 요청/수신
+•	파일 선택, 전송, 저장
+•	Main.cpp
+•	UI, 네트워크 연결, 사용자 입력 처리
+•	Common.h
+•	공통 상수, 구조체 등
+
+
+
+서버 프로젝트
+•	ChatMSG.h / ChatMSG.cpp
+•	채팅 메시지 중계
+•	FileTransfer.h / FileTransfer.cpp
+•	파일 수신/중계
+•	ServerCore.h / ServerCore.cpp
+•	클라이언트 관리, 스레드, 브로드캐스트
+•	ChatHistory.h / ChatHistory.cpp
+•	메시지 저장/복원
+•	SecretChat.h / SecretChat.cpp
+•	1:1 비밀 대화
+•	CalcServer.h / CalcServer.cpp
+•	계산기 기능
+•	DebugUtil.h / DebugUtil.cpp
+•	디버깅/로깅
+•	Common.h
+•	공통 상수, 구조체 등
+
+    
 ---
 
 ## 0508목 수업정리
