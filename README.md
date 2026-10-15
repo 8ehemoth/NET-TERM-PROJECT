@@ -288,10 +288,9 @@ msg (주는사람)
 chat group send msg
 chat persnal send msg
 
-둘이 다르냐고!!!!!!!!!!!!!!!!
 기본적으로 구분이 안됌 -> 추가적으로 구분되게 설정해줘야함
 결과적으로 -> 메세지에도 id를 구분해줘야함
-persnal chat이냐 group chat이냐 구분!!!!!!!!!!!!!!!
+persnal chat이냐 group chat이냐 구분!
 
 256보다 적으면 캐럿, 크면 쇼트
 당근당근
